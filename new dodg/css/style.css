@@ -1,0 +1,416 @@
+ body{
+   background-color: #150a33;
+ }
+ *{
+ box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+ 
+:root{
+    --white-color:#fff;
+   --lightmove: blueviolet;
+    --silver:#ddd;
+    --black:#000000;
+     --mov:#4834d4;
+     --blue:#2a81ea;
+   --ltblue: #15e0ff;
+    --magenta: #d000c5;
+    
+}
+
+.scroll-to-top{
+    background-color: #000;
+    color: #fff;
+    position: fixed;
+    bottom: 10px;
+    right: 50px;
+    padding: 10px;
+    display: none;
+    font-size: 40px;
+    width: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    height: 100px;
+}
+
+/* start header nav */
+.navbar img{
+ 
+ height: 100px;
+ border-radius: 44%;
+}
+
+.upnav{
+  background-image: url(../img/background/back2.jpg);
+  background-size: cover;
+  background-repeat:round;  
+  opacity: 0.6; 
+
+ 
+
+}
+ 
+
+ .navbar-expand-lg a:hover{
+  
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;  
+   font-weight: bold;
+   background-color: #2a81ea; 
+   
+}
+  
+.arab:hover{
+  color: #2a81ea;
+  
+}
+
+
+.about{
+  border-radius: 33px;
+text-shadow: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 14px;
+  text-transform: capitalize;
+  color: #15e0ff;
+   /* background-color: #ecfef3;  */
+ 
+}
+/* #fff9f6 */
+ 
+.about .ceo img{
+position: relative;
+border-radius: 60%;
+  
+}
+.about .ceo{
+border-radius: 50%;
+ 
+}
+.about .text:hover{
+ color: magenta;
+ text-transform: uppercase; 
+   
+}
+
+
+.about .text{
+ font-weight: bold;
+ text-transform: capitalize;
+ font-weight: bold;
+ font-size: 14px; 
+  border-bottom: thick solid;
+
+}
+ 
+.about .arabic{
+
+  margin-top:45px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: medium;
+   font-weight: bold;
+   font-size: 20px;
+   display: none;
+ }
+
+.button{
+  width: 50%;
+  font-size: 20px;
+}
+ 
+
+/* .carpet h2{
+align-items: center;
+  font-weight: bold; 
+font-size: 40px;
+text-transform: capitalize;
+font-family: Arial, Helvetica, sans-serif;
+ margin-bottom: 20px;
+
+ border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;
+}
+   */
+   .carpet .card-body{
+    background-color: #150a33;   }
+.carpet {
+  color: wheat;
+  background-color: #150a33;}
+ 
+ 
+  .carpet .card-body:hover{
+ 
+  color: tomato;
+  font-weight: bolder;
+ 
+ 
+}
+ 
+.ketchen {
+ 
+  background-color: #150a33;
+/* 
+  background-color: #e6fdef; */
+  /* #d5fbe3; */
+}
+/* .ketchen h3{
+  text-align: center;
+  margin-top: 30px; 
+   font-weight: bolder;
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+   border-radius: 25px;
+     border: 2px solid #73AD21;
+      padding: 20px; 
+      width: 220px;
+      height: 150px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;  
+    transition: width 2s, height 2s, transform 2s;
+
+}
+
+.ketchen h3:hover{
+  text-transform: uppercase;
+  font-size: 50px;
+   color: red;
+    
+ } */
+  
+
+
+.ketchen img{
+
+   transition: transform 1s, filter 2s ease-in-out;
+ 
+}
+
+ .ketchen img:hover{
+  transform: scale(1.2);
+ 
+  }
+ 
+.ket img{
+    transition: transform 1s, filter 2s ease-in-out;
+
+  }
+  .ket img:hover{
+   transform: scale(1.2);
+  }
+ 
+  .ket{
+    background-color: #150a33; 
+  }
+  
+/* .koko:hover{
+  text-transform: uppercase;
+  font-size: 40px;
+   color: red;
+    
+  transition: width 2s, height 2s, transform 2s;
+} */
+
+
+
+
+/* .slipper{
+
+  text-align: center;
+  margin-top: 30px;
+   font-weight: bolder;
+   font-size:44px;
+   text-transform: capitalize;
+   font-family: Arial, Helvetica, sans-serif;
+   
+ border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;
+   transition: width 2s, height 2s, transform 2s;
+
+} */
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  transition: transform 1s, filter 2s ease-in-out;
+ 
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  transform: scale(1.2);
+
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+/* .women h3{
+  text-align: center;
+ margin-top:40px;
+  font-weight: bolder;
+  font-size:44px;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+ color:  #d000c5;
+ 
+ border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 220px;
+  height: 190px;
+ 
+}  */
+
+.women{
+  /* background-color:#f5f5f5 ; */
+  /* background-color:#ae63e4;  */
+  /* background-image: url(../IMG-20210320-WA0031.jpg);
+  background-size: cover; */
+  /* margin-top: -33px; */
+  background-color: #150a33; 
+}
+
+/* .women h3:hover{
+  text-transform: uppercase;
+  font-size: 50px;
+   color: red;
+    
+ }
+ 
+  */
+ 
+.bags{  background-color: #150a33; 
+  
+}
+
+
+.walet{ 
+   
+  background-color: #150a33; 
+}
+ 
+ 
+.bags{
+  background-color: #150a33; 
+  /* background-image: url(../IMG-20210320-WA0031.jpg); */
+ 
+}
+/* footer */
+  
+  
+ 
+ .footer{ 
+ 
+  font-size: medium;
+  background-color: #150a33;
+  color: #22c8e5;
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+   .footer h5{
+     color: white;
+   }
+  .footer .card{
+  border: 1px saddlebrown solid;
+  color: #8d60e7;    
+  background-color: #150a33;
+
+}
+
+ 
+  .footer .card :hover{
+  font-size:xx-large;
+   color: #22c8e5;
+  }
+ 
+ 
+
+
+ 
+ 
+   
+  .icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+     
+  }
+
+  .icon-bar a:hover {
+    background-color: #000;
+    
+   
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+ 
+ h1{
+   align-items: center;  text-align: center;
+
+ }
+ 
+.shine{
+  width: max-content;
+  background-color: black;
+  font-family: cursive;
+  font-size:xx-large;
+  font-weight: bolder;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  animation: shine 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes shine {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
+
+/*   
+.end{height:40px;
+  width: 20%;
+  font-size:  large; 
+ text-align: center;
+ align-items: center;
+
+
+ 
+
+}   */
